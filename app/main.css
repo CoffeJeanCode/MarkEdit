@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font: menu;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+textarea,
+input,
+div,
+button {
+  outline: none;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+}
+
+.raw-markdown,
+.render-html {
+  max-width: 50%;
+  min-height: 100vh;
+  flex-grow: 1;
+  overflow-y: scroll;
+  font-size: 1.5em;
+}
+
+.raw-markdown {
+  --bgColor: rgb(31, 31, 31);
+  border: 5px solid var(--bgColor);
+  background: var(--bgColor);
+  color: #fff;
+  font-family: monospace;
+}

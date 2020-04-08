@@ -1,0 +1,16 @@
+{
+  "name": "markedit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^8.2.1",
+    "marked": "^0.8.2"
+  }
+}
